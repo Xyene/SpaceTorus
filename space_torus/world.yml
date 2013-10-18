@@ -1,0 +1,91 @@
+{
+  "planets": {
+    "earth": {
+      "texture": "earth.jpg",
+      "radius": 100,
+      "z": "2 * AU",
+      "pitch": -90,
+      "yaw": 23.4,
+      "roll": -90,
+      "atmosphere": {
+        "texture": "atmosphere_earth.png",
+        "size": 20
+      }
+    },
+    "moon": {
+      "texture": "moon.jpg",
+      "radius": 25,
+      "x": 200,
+      "y": 50,
+      "z": "2 * AU",
+      "pitch": -90,
+      "yaw": 6.68
+    },
+    "mars": {
+      "texture": "mars.jpg",
+      "radius": 80,
+      "z": "4 * AU",
+      "pitch": -90,
+      "yaw": 25.19
+    },
+    "jupiter": {
+      "texture": "jupiter.jpg",
+      "radius": 150,
+      "z": "6 * AU",
+      "pitch": -90,
+      "yaw": 3.13
+    },
+    "saturn": {
+      "texture": "saturn.jpg",
+      "radius": 140,
+      "z": "8 * AU",
+      "pitch": -90,
+      "yaw": 26.73,
+      "ring": {
+        "texture": "ring_saturn.png",
+        "distance": 200,
+        "size": 150
+      }
+    },
+    "uranus": {
+      "texture": "uranus.jpg",
+      "radius": 130,
+      "z": "10 * AU",
+      "pitch": -90,
+      "yaw": 97.77,
+      "ring": {
+        "texture": "ring_uranus.png",
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 90,
+        "distance": 200,
+        "size": 100
+      }
+    },
+    "neptune": {
+      "texture": "neptune.jpg",
+      "radius": 120,
+      "z": "12 * AU",
+      "pitch": -90,
+      "yaw": 28.32
+    },
+    "sky": {
+      "texture": "sky.jpg",
+      "lighting": false,
+      "radius": 190000,
+      "pitch": 90,
+      "yaw": 30,
+      "roll": 180,
+      "delta": 0
+    }
+  },
+  "waypoints": [
+    [0, 0, 0],
+    [160, 80, "2 * AU"],
+    [-127, 50, "4 * AU"],
+    [450, 11, "6 * AU"],
+    [312, 45, "8 * AU"],
+    [-176, 0, "10 * AU"],
+    [452, 123, "12 * AU"]
+  ]
+}
