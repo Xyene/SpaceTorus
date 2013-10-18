@@ -95,7 +95,7 @@ class Applet(pyglet.window.Window):
         from time import clock
 
         l = clock()
-        self.world = load_world("world.yml")
+        self.world = load_world("world.json")
         self.speed = INITIAL_SPEED
         self.points = []
         self.missed = []
