@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import sys
 
 INITIAL_WIN_HEIGHT = 540
 INITIAL_WIN_WIDTH = 700
@@ -8,14 +9,12 @@ OPTIMIZED = True
 
 
 def main():
-    import sys
-
-    if OPTIMIZED and not sys.flags.optimize:
+    '''if OPTIMIZED and not sys.flags.optimize:
         print "Optimizing session..."
         import subprocess
 
         subprocess.call([sys.executable, '-O'] + sys.argv)
-        return
+        return'''
     print "Welcome to Space Torus. The game will begin shortly."
 
     import pyglet
@@ -29,7 +28,7 @@ def main():
         player.eos_action = player.EOS_LOOP
         player.play()
 
-    window = Applet(width=INITIAL_WIN_WIDTH, height=INITIAL_WIN_HEIGHT, caption=WIN_TITLE, resizable=True, vsync=0)
+    Applet(width=INITIAL_WIN_WIDTH, height=INITIAL_WIN_HEIGHT, caption=WIN_TITLE, resizable=True, vsync=0)
     pyglet.app.run()
 
 

@@ -3,7 +3,13 @@ from operator import itemgetter
 import hashlib
 import os.path
 
-import json
+try:
+    import json
+except ImportError:
+    try:
+        import simplejson as json
+    except:
+        print "No compatible JSON decoder found. Translation: you're fucked."
 
 from glgeom import *
 from entity import *
