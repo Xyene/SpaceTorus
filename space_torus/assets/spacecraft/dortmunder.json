@@ -1,0 +1,11 @@
+{
+    "name": "Dortmunder",
+    "description": "Medical shuttle",
+    "model": "dortmunder/dortmunder.obj",
+    "speed": 100,
+    "sensitivity": 0.2,
+    "scale": 1,
+    "pitch": 0,
+    "yaw": -90,
+    "roll": 0
+}

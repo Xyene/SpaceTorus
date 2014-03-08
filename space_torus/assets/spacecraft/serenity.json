@@ -1,0 +1,11 @@
+{
+    "name": "Serenity",
+    "description": "03-K64 Firefly-class transport ship",
+    "model": "serenity/serenity.obj",
+    "speed": 200,
+    "sensitivity": 0.3,
+    "scale": 0.4,
+    "pitch": 0,
+    "yaw": -90,
+    "roll": 0
+}

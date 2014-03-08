@@ -1,0 +1,11 @@
+{
+    "name": "Nov92 Blackbird",
+    "description": "Military fighter jet",
+    "model": "nov92/nov92.obj",
+    "speed": 400,
+    "sensitivity": 0.8,
+    "scale": 1,
+    "pitch": 0,
+    "yaw": -90,
+    "roll": 0
+}
